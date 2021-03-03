@@ -1,18 +1,96 @@
-.container {
-    display: inline-block;    
-    width: 800px;
-    margin-top: 100px;
-    margin-left: calc((100% - 800px) / 2);
-    background-color: aqua;
+body {    
+    /*background-image: url("../img/hill.jpg");*/
+    background-image: radial-gradient(#0074BF, #9341AC);
 }
+
+.container {
+    font-family: system-ui, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;    
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: calc((100% - 1000px) / 2);
+}
+
 .left-column {
     float: left;
     width: 40%;
-    background-color: rgb(143, 221, 153);
+    height: 600px;
+    margin-top: 20px;
+    background-image: url("../img/foto.png");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    position: relative;
+    top: 20px;
+    left: 80px;
+    text-transform: capitalize;
+}
+
+.left-column > a {    
+    position: relative;
+    top: 420px;
+    left: 80px;
+    color: white;
 }
 
 .right-column {
-    float: left;
+    float: right;
     width: 60%;
-    background-color: rgb(223, 96, 180);
+    height: 640px;
+    background-color: white;
+    color: #BDBDBD;
+}
+
+.close-button {
+    position: relative;
+    float: right;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    color: #CBCBCB;
+}
+
+form {
+    position: relative;
+    top: 70px;
+    left: 90px;
+}
+
+.form-labels {
+    text-transform: uppercase;
+}
+
+.form-inputs {
+    border: none;
+    border-bottom: solid 1px;
+    margin: 40px 0 30px 0;
+    width: 70%;
+}
+.form-inputs::placeholder {
+    font-size: 17px;
+}
+.form-button {
+    background-color: #044FD7;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 49px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
+span > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #044FD7;
+    font-weight: bold;
+    margin-left: 20px;
 }

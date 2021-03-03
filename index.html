@@ -12,10 +12,31 @@
 <body>
     <main class="container">
         <div class="left-column">
-            left
+            <h1>Sign up</h1>
+            <a href="#">Privacy policy & terms of service</a>
         </div>
         <div class="right-column">
-            Right column
+            <button class="close-button" onclick="closeWin()">×</button>
+            <form action="#">
+                <label class="form-labels" for="username">Username</label><br>
+                <input class="form-inputs" type="text" placeholder="Username" name="username" id="username" required><br>
+
+                <label class="form-labels" for="email">E-mail</label><br>
+                <input class="form-inputs" type="email" placeholder="E-mail" name="email" id="email" required><br>
+
+                <label class="form-labels" for="password">Password</label><br>
+                <input class="form-inputs" type="password" placeholder="●●●●●●" name="password" id="password"><br>
+
+                <label class="form-labels" for="password">Repeat password</label><br>
+                <input class="form-inputs" type="password" placeholder="●●●●●●" name="rep_password" id="rep_password"><br><br>
+
+                <input class="form-button" type="submit" value="Get started">
+                or
+                <span class="sign-in-page">
+                    <a href="#">Sign in</a>
+                </span>
+
+            </form>
         </div>
     </main>
 </body>
