@@ -1,0 +1,18 @@
+.container {
+    display: inline-block;    
+    width: 800px;
+    margin-top: 100px;
+    margin-left: calc((100% - 800px) / 2);
+    background-color: aqua;
+}
+.left-column {
+    float: left;
+    width: 40%;
+    background-color: rgb(143, 221, 153);
+}
+
+.right-column {
+    float: left;
+    width: 60%;
+    background-color: rgb(223, 96, 180);
+}
